@@ -6,7 +6,7 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:23:19 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/06 19:53:01 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/07 11:40:49 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define SCALARCONVERTER_HPP
 
 # include <iostream>
+# include <cctype>
+# include <string>
 
 class   ScalarConverter
 {
@@ -27,6 +29,7 @@ class   ScalarConverter
         static void NaN(void);
         static void infinito_negativo(void);
         static void infinito_positivo(void);
+        static int  tipo_real(const std::string& str);
     public:
         static void convert(const std::string& literal);
 };
