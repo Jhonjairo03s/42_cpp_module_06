@@ -6,11 +6,11 @@
 #    By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/06 20:00:24 by jhvalenc          #+#    #+#              #
-#    Updated: 2026/10/07 20:56:50 by jhvalenc         ###   ########.fr        #
+#    Updated: 2026/10/07 23:00:05 by jhvalenc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME        = scalar
+NAME        = convert
 
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
