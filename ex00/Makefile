@@ -6,16 +6,17 @@
 #    By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/06 20:00:24 by jhvalenc          #+#    #+#              #
-#    Updated: 2026/10/06 20:05:39 by jhvalenc         ###   ########.fr        #
+#    Updated: 2026/10/07 20:56:50 by jhvalenc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME        = scalar_converter
+NAME        = scalar
 
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
 SRCS        = ScalarConverter.cpp \
+	      ScalarUtils.cpp \
 	      main.cpp
 
 OBJS        = $(SRCS:.cpp=.o)
