@@ -6,7 +6,7 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:23:19 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/07 11:40:49 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/07 13:36:11 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class   ScalarConverter
         ScalarConverter(const ScalarConverter& other);
         ScalarConverter&    operator=(const ScalarConverter& other);
         ~ScalarConverter();
-        // metodos auxiliares
+        // Metodos auxiliares
         static void NaN(void);
         static void infinito_negativo(void);
         static void infinito_positivo(void);
