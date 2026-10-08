@@ -6,7 +6,7 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 19:55:53 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/06 20:10:42 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/08 12:53:03 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ int	main(int argc, char **argv)
 
     if (argc != 2)
     {
-        std::cerr << "./scalar_converter + argumento" << '\n';
+        std::cerr << "./convert + value" << '\n';
         return (1);
     }
-	str = argv[1];
+    str = argv[1];
 	ScalarConverter::convert(str);
 	return (0);
 }
