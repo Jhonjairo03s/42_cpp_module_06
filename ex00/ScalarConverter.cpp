@@ -6,13 +6,35 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:52:45 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/08 12:20:13 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/08 14:23:32 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScalarConverter.hpp"
 #include "ScalarUtils.hpp"
 
+ScalarConverter::ScalarConverter()
+{
+    std::cout << "Default Constructor Called" << '\n';
+}
+
+ScalarConverter::ScalarConverter(const ScalarConverter& other)
+{
+    (void)other;
+    std::cout << "Constructor Copy Called" << '\n';
+}
+
+ScalarConverter&    ScalarConverter::operator=(const ScalarConverter& other)
+{
+    (void)other;
+    std::cout << "Copy assignment operator called" << '\n';
+    return (*this);
+}
+
+ScalarConverter::~ScalarConverter()
+{
+    std::cout << "Destructor called" << '\n';
+}
 
 void    ScalarConverter::convert(const std::string& literal)
 {
