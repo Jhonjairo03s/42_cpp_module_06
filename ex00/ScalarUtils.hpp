@@ -6,7 +6,7 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 19:48:24 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/07 22:33:27 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/08 13:13:40 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <iostream>
 # include <string>
 # include <sstream>
+# include <iostream>
+# include <iomanip>
 
 void    NaN(void);
 void    infinito_negativo(void);
