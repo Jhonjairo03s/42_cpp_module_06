@@ -6,7 +6,7 @@
 #    By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/09 23:04:27 by jhvalenc          #+#    #+#              #
-#    Updated: 2026/10/16 23:43:37 by jhvalenc         ###   ########.fr        #
+#    Updated: 2026/10/17 00:47:16 by jhvalenc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,6 @@ CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
 SRCS        = Serializer.cpp \
-	      Data.cpp \
 	      main.cpp
 
 OBJS        = $(SRCS:.cpp=.o)
