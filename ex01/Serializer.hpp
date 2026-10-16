@@ -6,7 +6,7 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 23:43:57 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/17 00:14:09 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/17 00:46:36 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # define SERIALIZER_HPP
 
 # include "Data.hpp"
-# include <cstdint>
+# include <stdint.h>
 
 class   Serializer
 {
