@@ -6,12 +6,14 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 18:03:56 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/10/19 18:07:04 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/10/19 18:31:49 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef BASE_HPP
 # define BASE_HPP
+
+# include <iostream>
 
 class   Base
 {
